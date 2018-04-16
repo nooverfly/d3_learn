@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>color_scale</title>
+    <script src="../../js/d3.min.js"></script>
+</head>
+<body>
+<script>
+    (function () {
+        var colors = d3.scaleOrdinal(d3.schemeCategory10);
+        console.log(colors("12"));
+        console.log(colors("123"));
+    })();
+</script>
+</body>
+</html>
